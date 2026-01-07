@@ -2,7 +2,7 @@
 // https://github.com/octokit/core.js#readme
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 })
 
 await octokit.request('GET /repos/{owner}/{repo}/invitations', {
